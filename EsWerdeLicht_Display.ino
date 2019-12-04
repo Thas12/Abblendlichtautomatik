@@ -53,7 +53,6 @@ void setup()                                                                /*Se
 /*************************************/
 void loop()
 { 
-currentTime = millis(); 
 Licht = analogRead (26);                                                    /* Pin 26 und 27 analog auslesen*/
 Licht2 = analogRead (27);
                 
